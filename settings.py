@@ -3,6 +3,7 @@
 
 import os
 
+# Metadata
 __author__ = 'GEOCODERY'
 __copyright__ = 'GEOCODERY 2018'
 __credits__ = ['Daniel Aguado H.', 'Roy Yali S.']
@@ -11,23 +12,24 @@ __maintainer__ = ['Daniel Aguado H.', 'Roy Yali S.']
 __mail__ = 'geocodery@gmail.com'
 __status__ = 'Development'
 
-BASE_DIR = os.path.dirname(__file__)    # Directorio principal del proyecto
+# Directorio principal del proyecto
+BASE_DIR = os.path.dirname(__file__)
 
+# Directorio ue sirve de archivos estaticos
 STATIC = os.path.join(BASE_DIR, "static")
+
 IMG = os.path.join(STATIC, "img")
+
+# Diretorio de archivos shapefile
 SHP = os.path.join(STATIC, "shp")
+EHIDROMETRICA = os.path.join(SHP, 'EH_01.shp')
+REDHIDRICA = os.path.join(SHP, 'OrdenRios.shp')
 
-TEMP = os.path.join(BASE_DIR, "temp")   # Directorio de archivos intermedios
+# Directorio de archivos shapefile para el analisis de redes
+NETWORK_DIR = os.path.join(STATIC, 'network')
+EHIDROMETRICA_NA = os.path.join(NETWORK_DIR, 'ehidrometrica.shp')
+REDHIDRICA_NA = os.path.join(NETWORK_DIR, 'redhidrica.shp')
+NETWORK = os.path.join(NETWORK_DIR, 'redhidrica_ND')  # Red de analisis
 
-
-# IMG_FILE = {
-#     "ASP": os.path.join(IMG, "BD_ASP.tif"),
-#     "DEM": os.path.join(IMG, "BD_DEM.tif"),
-#     "FAC": os.path.join(IMG, "BD_FAC.tif"),
-#     "FDR": os.path.join(IMG, "BD_FDR.tif"),
-#     "GLC": os.path.join(IMG, "BD_GLC.tif"),
-#     "PPM": os.path.join(IMG, "BD_PPM.tif"),
-#     "RUS": os.path.join(IMG, "BD_RUS.tif"),
-#     "SLP": os.path.join(IMG, "BD_SLP.tif"),
-#     "TWI": os.path.join(IMG, "BD_TWI.tif")
-# }
+# Directorio de archivos temporales
+TEMP = os.path.join(BASE_DIR, "temp")
