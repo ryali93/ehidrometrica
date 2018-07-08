@@ -94,12 +94,17 @@ env/
 # pycharm
 .idea/
 
-
-static/
-static
-
 temp/
 temp
 
 venv/
 venv
+
+static/base/
+static/img/
+static/output/
+static/shp/
+
+setup/
+
+*.look
