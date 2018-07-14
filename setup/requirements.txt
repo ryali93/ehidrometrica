@@ -1,6 +1,0 @@
-D:\DANELROCK_PC\devs\ehidrometrica\setup\GDAL-2.2.4-cp27-cp27m-win32.whl
-numpy==1.14.3
-pandas==0.23.0
-python-dateutil==2.7.3
-pytz==2018.4
-six==1.11.0

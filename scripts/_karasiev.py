@@ -4,12 +4,16 @@
 import arcpy
 from config.settings import *
 
+_CODCUENCA = 'CODIGO'
+_CODREGION = 'XXXXXX'   # Nombre de campo identificador de region aun no definido
+
 
 class Karasiev(object):
     """
     Karasiev: ...
     """
     __epsg = int()
+    __query = None
 
     def set_epsg(self, value):
         """
@@ -22,10 +26,32 @@ class Karasiev(object):
     @property
     def get_epsg(self):
         """
-        Muestra el codigo epsg confgurado
+        Muestra el codigo epsg configurado
         :return: self.__epsg
         """
         return self.__epsg
+
+    def set_filter(self, **kwargs):
+        """
+        Permite realizar el filtro por cuenca, region, o ambos
+        :param kwargs:
+        :return:
+        """
+        query = [None] * 2
+
+        query[0] = "%s = '%s'" % (_CODREGION, kwargs['region']) if kwargs.get('region') else None
+        query[1] = "%s = '%s'" % (_CODCUENCA, kwargs['cuenca']) if kwargs.get('cuenca') else None
+
+        query = filter(lambda i: i is not None, query)
+
+        if query:
+            self.__query = ' AND '.join(query)
+        else:
+            raise RuntimeError('Invalid values...')
+
+    @property
+    def get_filter(self):
+        return self.__query
 
     def mx_absolute_difference(self, x, y):
         """
@@ -62,6 +88,7 @@ class Karasiev(object):
         :param x: Matriz de gradiente
         :return: Matriz de correlaciones
         """
+        # print x.corr()
         return x.corr()
 
     def mx_significance(self, mx_co, n_years):
@@ -86,7 +113,10 @@ class Karasiev(object):
         :param args: [campo identificador, campo caudal]
         :return: caudal anual como dict()
         """
-        data = {str(int(x[0])): x[1] for x in arcpy.da.SearchCursor(EHIDROMETRICA, args)}
+        if not self.__query:
+            raise RuntimeError('self.query is not configured...')
+
+        data = {str(int(x[0])): x[1] for x in arcpy.da.SearchCursor(EHIDROMETRICA, args, self.__query)}
         return data
 
     def get_data_mx_distance(self, *args):
@@ -95,8 +125,11 @@ class Karasiev(object):
         :param args: [campo identificador, campo geometria]
         :return: posicion como dict()
         """
+        if not self.__query:
+            raise RuntimeError('self.query is not configured...')
+
         data = {str(int(i[0])): i[1] for i in
-                arcpy.da.SearchCursor(EHIDROMETRICA, args, None, arcpy.SpatialReference(self.__epsg))}
+                arcpy.da.SearchCursor(EHIDROMETRICA, args, self.__query, arcpy.SpatialReference(self.__epsg))}
         return data
 
     def __str__(self):
