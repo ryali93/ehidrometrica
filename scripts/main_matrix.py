@@ -5,10 +5,10 @@ from _karasiev import *
 from ehidropy import *
 
 # Variables globales
-BUDYKO_FIELD = 'Q_Budyko'
+BUDYKO_FIELD = 'BDK'
 ID_FIELD = 'HYBAS_ID'
-CODCUENCA = 'CODIGO'
-EPSG = 32717
+CODCUENCA = 'IDRC'
+EPSG = 32718
 YEARS_OF_READER = 20
 
 # Probando la clase Karasiev de _karasiev
@@ -16,7 +16,8 @@ ksv = Karasiev()
 ksv.set_epsg(EPSG)
 
 # Se obtiene el codigo de las cuencas
-cuencas = set([i[0] for i in arcpy.da.SearchCursor(EHIDROMETRICA, [CODCUENCA], "%s IN ('1376')" % CODCUENCA)])
+# cuencas = set([i[0] for i in arcpy.da.SearchCursor(EHIDROMETRICA, [CODCUENCA], "%s IN ('004984918')" % CODCUENCA)])
+cuencas = set([i[0] for i in arcpy.da.SearchCursor(EHIDROMETRICA, [CODCUENCA], "%s IS NOT NULL" % CODCUENCA)])
 
 for i in cuencas:
     print i

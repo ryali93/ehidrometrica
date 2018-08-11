@@ -4,7 +4,7 @@
 import arcpy
 from config.settings import *
 
-_CODCUENCA = 'CODIGO'
+_CODCUENCA = 'IDRC'
 _CODREGION = 'XXXXXX'   # Nombre de campo identificador de region aun no definido
 
 
