@@ -21,6 +21,9 @@ STATIC = os.path.join(BASE_DIR, "static")
 # IMG = os.path.join(STATIC, "img")
 MATRIX_DIR = os.path.join(STATIC, 'matrix')
 
+# Tabla de longitud de rios
+TB_IDRC = os.path.join(STATIC, 'ehidrometrica.gdb\\tb_idrc')
+
 # Geodatabase
 EHIDROMETRICA = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPT_EstacionHidrometrica')
 

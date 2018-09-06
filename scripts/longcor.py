@@ -91,7 +91,7 @@ def get_idrc(idrc):
     plt.suptitle(idrc)
 
     plt.savefig(fig)
-    plt.show()
+    # plt.show()
     return round(coord.x, 4)
 
 # idrc = '000131804'
