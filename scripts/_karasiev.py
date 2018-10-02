@@ -5,7 +5,7 @@ import arcpy
 from config.settings import *
 
 _CODCUENCA = 'IDRC'
-_CODREGION = 'XXXXXX'   # Nombre de campo identificador de region aun no definido
+_CODREGION = 'CODREGION'   # Nombre de campo identificador de region aun no definido
 
 
 class Karasiev(object):

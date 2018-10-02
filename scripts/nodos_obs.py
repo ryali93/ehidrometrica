@@ -20,7 +20,6 @@ rhLayer = arcpy.MakeFeatureLayer_management(redHidrica, 'mfl')  # Feature layer 
 
 def determinar_rio_principal(codigo, shape):
     """
-    
     :param codigo:
     :param shape:
     :return:

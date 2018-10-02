@@ -22,10 +22,10 @@ STATIC = os.path.join(BASE_DIR, "static")
 MATRIX_DIR = os.path.join(STATIC, 'matrix')
 
 # Tabla de longitud de rios
-TB_IDRC = os.path.join(STATIC, 'ehidrometrica.gdb\\tb_idrc')
+TB_IDRC = os.path.join(STATIC, 'ehidrometrica.gdb\\TB_IDRC')
 
 # Geodatabase
-EHIDROMETRICA = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPT_EstacionHidrometrica')
+EHIDROMETRICA = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPT_EstacionHidrometrica_v3')
 
 # # Directorio de archivos temporales
 # TEMP = os.path.join(BASE_DIR, "temp")

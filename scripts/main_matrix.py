@@ -7,7 +7,7 @@ from ehidropy import *
 from longcor import *
 
 # Variables globales
-BUDYKO_FIELD = 'BDK'
+BUDYKO_FIELD = 'q_bdk'
 ID_FIELD = 'HYBAS_ID'
 CODCUENCA = 'IDRC'
 EPSG = 32718
@@ -20,9 +20,8 @@ ksv = Karasiev()
 ksv.set_epsg(EPSG)
 
 # Se obtiene el codigo de las cuencas
-# cuencas = set([i[0] for i in arcpy.da.SearchCursor(EHIDROMETRICA, [CODCUENCA], "%s IN ('004984918')" % CODCUENCA)])
 cuencas = set([i[0] for i in arcpy.da.SearchCursor(EHIDROMETRICA, [CODCUENCA], "%s IS NOT NULL" % CODCUENCA)])
-cuencas = list(cuencas)[:20]
+cuencas = list(cuencas)
 
 s_container=[]
 
@@ -65,7 +64,6 @@ for i in cuencas:
         longrio = [m[0] for m in arcpy.da.SearchCursor(TB_IDRC, ["LONG_RIO"], "%s = '%s'" %(CODCUENCA, i))][0]
 
         # Graficos
-
         row = dict()
         container = []
         for es in ERROR_SIST:
@@ -77,7 +75,6 @@ for i in cuencas:
             row["o"] = es                           # Error sistematico
             row["a"] = 1/row["lo"]                  # a
             row["gyo"] = matrix_gr.unstack().mean() # Gradiente promedio
-
             row["lrio"] = longrio                   # Longitud de rio
             row["lgrad"] = (2*pow(2, 0.5)*es*row["yo"])/row["gyo"]   # Longitud de gradiente
             row["lcor"] = pow(es, 2)/(row["a"]*pow(row["cv"], 2))    # Longitud correlativa

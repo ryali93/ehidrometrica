@@ -1,0 +1,1888 @@
+Listado de rutas de carpetas para el volumen D
+El n£mero de serie del volumen es A7C4-7630
+D:.
+|   .gitignore
+|   requirements.txt
+|   tree.txt
+|   
++---scripts
+|   |   ehidropy.py
+|   |   main_matrix.py
+|   |   nodos_obs.py
+|   |   test.py
+|   |   Untitled.ipynb
+|   |   _karasiev.py
+|   |   __init__.py
+|   |   
+|   \---config
+|           settings.py
+|           __init__.py
+|           
++---setup
+|       GDAL-2.2.4-cp27-cp27m-win32.whl
+|       
+\---static
+    |   ehidrometrica.tbx
+    |   
+    +---ehidrometrica.gdb
+    |       a00000001.freelist
+    |       a00000001.gdbindexes
+    |       a00000001.gdbtable
+    |       a00000001.gdbtablx
+    |       a00000001.TablesByName.atx
+    |       a00000002.gdbtable
+    |       a00000002.gdbtablx
+    |       a00000003.gdbindexes
+    |       a00000003.gdbtable
+    |       a00000003.gdbtablx
+    |       a00000004.CatItemsByPhysicalName.atx
+    |       a00000004.CatItemsByType.atx
+    |       a00000004.FDO_UUID.atx
+    |       a00000004.freelist
+    |       a00000004.gdbindexes
+    |       a00000004.gdbtable
+    |       a00000004.gdbtablx
+    |       a00000004.spx
+    |       a00000005.CatItemTypesByName.atx
+    |       a00000005.CatItemTypesByParentTypeID.atx
+    |       a00000005.CatItemTypesByUUID.atx
+    |       a00000005.gdbindexes
+    |       a00000005.gdbtable
+    |       a00000005.gdbtablx
+    |       a00000006.CatRelsByDestinationID.atx
+    |       a00000006.CatRelsByOriginID.atx
+    |       a00000006.CatRelsByType.atx
+    |       a00000006.FDO_UUID.atx
+    |       a00000006.freelist
+    |       a00000006.gdbindexes
+    |       a00000006.gdbtable
+    |       a00000006.gdbtablx
+    |       a00000007.CatRelTypesByBackwardLabel.atx
+    |       a00000007.CatRelTypesByDestItemTypeID.atx
+    |       a00000007.CatRelTypesByForwardLabel.atx
+    |       a00000007.CatRelTypesByName.atx
+    |       a00000007.CatRelTypesByOriginItemTypeID.atx
+    |       a00000007.CatRelTypesByUUID.atx
+    |       a00000007.gdbindexes
+    |       a00000007.gdbtable
+    |       a00000007.gdbtablx
+    |       a0000000a.freelist
+    |       a0000000a.gdbindexes
+    |       a0000000a.gdbtable
+    |       a0000000a.gdbtablx
+    |       a0000000a.spx
+    |       a0000000c.gdbindexes
+    |       a0000000c.gdbtable
+    |       a0000000c.gdbtablx
+    |       a0000000c.spx
+    |       a0000000d.gdbindexes
+    |       a0000000d.gdbtable
+    |       a0000000d.gdbtablx
+    |       a0000000d.spx
+    |       a00000010.freelist
+    |       a00000010.gdbindexes
+    |       a00000010.gdbtable
+    |       a00000010.gdbtablx
+    |       a00000010.spx
+    |       gdb
+    |       timestamps
+    |       
+    \---matrix
+        |   errors_process.csv
+        |   Untitled.ipynb
+        |   
+        +---000013203
+        |       matrix_co_000013203.csv
+        |       matrix_da_000013203.csv
+        |       matrix_di_000013203.csv
+        |       matrix_gr_000013203.csv
+        |       matrix_rc_000013203.csv
+        |       matrix_rc_000013203.png
+        |       matrix_si_000013203.csv
+        |       
+        +---000013403
+        |       matrix_co_000013403.csv
+        |       matrix_da_000013403.csv
+        |       matrix_di_000013403.csv
+        |       matrix_gr_000013403.csv
+        |       matrix_rc_000013403.csv
+        |       matrix_rc_000013403.png
+        |       matrix_si_000013403.csv
+        |       
+        +---000013404
+        |       matrix_co_000013404.csv
+        |       matrix_da_000013404.csv
+        |       matrix_di_000013404.csv
+        |       matrix_gr_000013404.csv
+        |       matrix_rc_000013404.csv
+        |       matrix_rc_000013404.png
+        |       matrix_si_000013404.csv
+        |       
+        +---000013504
+        |       matrix_co_000013504.csv
+        |       matrix_da_000013504.csv
+        |       matrix_di_000013504.csv
+        |       matrix_gr_000013504.csv
+        |       matrix_rc_000013504.csv
+        |       matrix_si_000013504.csv
+        |       
+        +---000013603
+        |       matrix_co_000013603.csv
+        |       matrix_da_000013603.csv
+        |       matrix_di_000013603.csv
+        |       matrix_gr_000013603.csv
+        |       matrix_rc_000013603.csv
+        |       matrix_rc_000013603.png
+        |       matrix_si_000013603.csv
+        |       
+        +---000013604
+        |       matrix_co_000013604.csv
+        |       matrix_da_000013604.csv
+        |       matrix_di_000013604.csv
+        |       matrix_gr_000013604.csv
+        |       matrix_rc_000013604.csv
+        |       matrix_rc_000013604.png
+        |       matrix_si_000013604.csv
+        |       
+        +---000013811
+        |       matrix_co_000013811.csv
+        |       matrix_da_000013811.csv
+        |       matrix_di_000013811.csv
+        |       matrix_gr_000013811.csv
+        |       matrix_rc_000013811.csv
+        |       matrix_rc_000013811.png
+        |       matrix_si_000013811.csv
+        |       
+        +---000013812
+        |       matrix_co_000013812.csv
+        |       matrix_da_000013812.csv
+        |       matrix_di_000013812.csv
+        |       matrix_gr_000013812.csv
+        |       matrix_rc_000013812.csv
+        |       matrix_rc_000013812.png
+        |       matrix_si_000013812.csv
+        |       
+        +---000131602
+        |       matrix_co_000131602.csv
+        |       matrix_da_000131602.csv
+        |       matrix_di_000131602.csv
+        |       matrix_gr_000131602.csv
+        |       matrix_rc_000131602.csv
+        |       matrix_rc_000131602.png
+        |       matrix_si_000131602.csv
+        |       
+        +---000131803
+        |       matrix_co_000131803.csv
+        |       matrix_da_000131803.csv
+        |       matrix_di_000131803.csv
+        |       matrix_gr_000131803.csv
+        |       matrix_rc_000131803.csv
+        |       matrix_rc_000131803.png
+        |       matrix_si_000131803.csv
+        |       
+        +---000131804
+        |       matrix_co_000131804.csv
+        |       matrix_da_000131804.csv
+        |       matrix_di_000131804.csv
+        |       matrix_gr_000131804.csv
+        |       matrix_rc_000131804.csv
+        |       matrix_rc_000131804.png
+        |       matrix_si_000131804.csv
+        |       
+        +---000137205
+        |       matrix_co_000137205.csv
+        |       matrix_da_000137205.csv
+        |       matrix_di_000137205.csv
+        |       matrix_gr_000137205.csv
+        |       matrix_rc_000137205.csv
+        |       matrix_rc_000137205.png
+        |       matrix_si_000137205.csv
+        |       
+        +---000137206
+        |       matrix_co_000137206.csv
+        |       matrix_da_000137206.csv
+        |       matrix_di_000137206.csv
+        |       matrix_gr_000137206.csv
+        |       matrix_rc_000137206.csv
+        |       matrix_rc_000137206.png
+        |       matrix_si_000137206.csv
+        |       
+        +---000137405
+        |       matrix_co_000137405.csv
+        |       matrix_da_000137405.csv
+        |       matrix_di_000137405.csv
+        |       matrix_gr_000137405.csv
+        |       matrix_rc_000137405.csv
+        |       matrix_rc_000137405.png
+        |       matrix_si_000137405.csv
+        |       
+        +---000137406
+        |       matrix_co_000137406.csv
+        |       matrix_da_000137406.csv
+        |       matrix_di_000137406.csv
+        |       matrix_gr_000137406.csv
+        |       matrix_rc_000137406.csv
+        |       matrix_rc_000137406.png
+        |       matrix_si_000137406.csv
+        |       
+        +---000137607
+        |       matrix_co_000137607.csv
+        |       matrix_da_000137607.csv
+        |       matrix_di_000137607.csv
+        |       matrix_gr_000137607.csv
+        |       matrix_rc_000137607.csv
+        |       matrix_rc_000137607.png
+        |       matrix_si_000137607.csv
+        |       
+        +---000137608
+        |       matrix_co_000137608.csv
+        |       matrix_da_000137608.csv
+        |       matrix_di_000137608.csv
+        |       matrix_gr_000137608.csv
+        |       matrix_rc_000137608.csv
+        |       matrix_si_000137608.csv
+        |       
+        +---000137609
+        |       matrix_co_000137609.csv
+        |       matrix_da_000137609.csv
+        |       matrix_di_000137609.csv
+        |       matrix_gr_000137609.csv
+        |       matrix_rc_000137609.csv
+        |       matrix_rc_000137609.png
+        |       matrix_si_000137609.csv
+        |       
+        +---000137610
+        |       matrix_co_000137610.csv
+        |       matrix_da_000137610.csv
+        |       matrix_di_000137610.csv
+        |       matrix_gr_000137610.csv
+        |       matrix_rc_000137610.csv
+        |       matrix_rc_000137610.png
+        |       matrix_si_000137610.csv
+        |       
+        +---000137811
+        |       matrix_co_000137811.csv
+        |       matrix_da_000137811.csv
+        |       matrix_di_000137811.csv
+        |       matrix_gr_000137811.csv
+        |       matrix_rc_000137811.csv
+        |       matrix_rc_000137811.png
+        |       matrix_si_000137811.csv
+        |       
+        +---000137812
+        |       matrix_co_000137812.csv
+        |       matrix_da_000137812.csv
+        |       matrix_di_000137812.csv
+        |       matrix_gr_000137812.csv
+        |       matrix_rc_000137812.csv
+        |       matrix_rc_000137812.png
+        |       matrix_si_000137812.csv
+        |       
+        +---000137912
+        |       matrix_co_000137912.csv
+        |       matrix_da_000137912.csv
+        |       matrix_di_000137912.csv
+        |       matrix_gr_000137912.csv
+        |       matrix_rc_000137912.csv
+        |       matrix_rc_000137912.png
+        |       matrix_si_000137912.csv
+        |       
+        +---000139112
+        |       matrix_co_000139112.csv
+        |       matrix_da_000139112.csv
+        |       matrix_di_000139112.csv
+        |       matrix_gr_000139112.csv
+        |       matrix_rc_000139112.csv
+        |       matrix_rc_000139112.png
+        |       matrix_si_000139112.csv
+        |       
+        +---000139211
+        |       matrix_co_000139211.csv
+        |       matrix_da_000139211.csv
+        |       matrix_di_000139211.csv
+        |       matrix_gr_000139211.csv
+        |       matrix_rc_000139211.csv
+        |       matrix_si_000139211.csv
+        |       
+        +---000139212
+        |       matrix_co_000139212.csv
+        |       matrix_da_000139212.csv
+        |       matrix_di_000139212.csv
+        |       matrix_gr_000139212.csv
+        |       matrix_rc_000139212.csv
+        |       matrix_rc_000139212.png
+        |       matrix_si_000139212.csv
+        |       
+        +---000139411
+        |       matrix_co_000139411.csv
+        |       matrix_da_000139411.csv
+        |       matrix_di_000139411.csv
+        |       matrix_gr_000139411.csv
+        |       matrix_rc_000139411.csv
+        |       matrix_rc_000139411.png
+        |       matrix_si_000139411.csv
+        |       
+        +---000139412
+        |       matrix_co_000139412.csv
+        |       matrix_da_000139412.csv
+        |       matrix_di_000139412.csv
+        |       matrix_gr_000139412.csv
+        |       matrix_rc_000139412.csv
+        |       matrix_rc_000139412.png
+        |       matrix_si_000139412.csv
+        |       
+        +---000466213
+        |       matrix_co_000466213.csv
+        |       matrix_da_000466213.csv
+        |       matrix_di_000466213.csv
+        |       matrix_gr_000466213.csv
+        |       matrix_rc_000466213.csv
+        |       matrix_rc_000466213.png
+        |       matrix_si_000466213.csv
+        |       
+        +---000496413
+        |       matrix_co_000496413.csv
+        |       matrix_da_000496413.csv
+        |       matrix_di_000496413.csv
+        |       matrix_gr_000496413.csv
+        |       matrix_rc_000496413.csv
+        |       matrix_rc_000496413.png
+        |       matrix_si_000496413.csv
+        |       
+        +---000496913
+        |       matrix_co_000496913.csv
+        |       matrix_da_000496913.csv
+        |       matrix_di_000496913.csv
+        |       matrix_gr_000496913.csv
+        |       matrix_rc_000496913.csv
+        |       matrix_rc_000496913.png
+        |       matrix_si_000496913.csv
+        |       
+        +---000497414
+        |       matrix_co_000497414.csv
+        |       matrix_da_000497414.csv
+        |       matrix_di_000497414.csv
+        |       matrix_gr_000497414.csv
+        |       matrix_rc_000497414.csv
+        |       matrix_rc_000497414.png
+        |       matrix_si_000497414.csv
+        |       
+        +---000497614
+        |       matrix_co_000497614.csv
+        |       matrix_da_000497614.csv
+        |       matrix_di_000497614.csv
+        |       matrix_gr_000497614.csv
+        |       matrix_rc_000497614.csv
+        |       matrix_rc_000497614.png
+        |       matrix_si_000497614.csv
+        |       
+        +---000497714
+        |       matrix_co_000497714.csv
+        |       matrix_da_000497714.csv
+        |       matrix_di_000497714.csv
+        |       matrix_gr_000497714.csv
+        |       matrix_rc_000497714.csv
+        |       matrix_rc_000497714.png
+        |       matrix_si_000497714.csv
+        |       
+        +---000497814
+        |       matrix_co_000497814.csv
+        |       matrix_da_000497814.csv
+        |       matrix_di_000497814.csv
+        |       matrix_gr_000497814.csv
+        |       matrix_rc_000497814.csv
+        |       matrix_rc_000497814.png
+        |       matrix_si_000497814.csv
+        |       
+        +---000498114
+        |       matrix_co_000498114.csv
+        |       matrix_da_000498114.csv
+        |       matrix_di_000498114.csv
+        |       matrix_gr_000498114.csv
+        |       matrix_rc_000498114.csv
+        |       matrix_rc_000498114.png
+        |       matrix_si_000498114.csv
+        |       
+        +---000498214
+        |       matrix_co_000498214.csv
+        |       matrix_da_000498214.csv
+        |       matrix_di_000498214.csv
+        |       matrix_gr_000498214.csv
+        |       matrix_rc_000498214.csv
+        |       matrix_rc_000498214.png
+        |       matrix_si_000498214.csv
+        |       
+        +---000498315
+        |       matrix_co_000498315.csv
+        |       matrix_da_000498315.csv
+        |       matrix_di_000498315.csv
+        |       matrix_gr_000498315.csv
+        |       matrix_rc_000498315.csv
+        |       matrix_si_000498315.csv
+        |       
+        +---000498319
+        |       matrix_co_000498319.csv
+        |       matrix_da_000498319.csv
+        |       matrix_di_000498319.csv
+        |       matrix_gr_000498319.csv
+        |       matrix_rc_000498319.csv
+        |       matrix_rc_000498319.png
+        |       matrix_si_000498319.csv
+        |       
+        +---000498515
+        |       matrix_co_000498515.csv
+        |       matrix_da_000498515.csv
+        |       matrix_di_000498515.csv
+        |       matrix_gr_000498515.csv
+        |       matrix_rc_000498515.csv
+        |       matrix_rc_000498515.png
+        |       matrix_si_000498515.csv
+        |       
+        +---000498615
+        |       matrix_co_000498615.csv
+        |       matrix_da_000498615.csv
+        |       matrix_di_000498615.csv
+        |       matrix_gr_000498615.csv
+        |       matrix_rc_000498615.csv
+        |       matrix_rc_000498615.png
+        |       matrix_si_000498615.csv
+        |       
+        +---000498815
+        |       matrix_co_000498815.csv
+        |       matrix_da_000498815.csv
+        |       matrix_di_000498815.csv
+        |       matrix_gr_000498815.csv
+        |       matrix_rc_000498815.csv
+        |       matrix_rc_000498815.png
+        |       matrix_si_000498815.csv
+        |       
+        +---000498816
+        |       matrix_co_000498816.csv
+        |       matrix_da_000498816.csv
+        |       matrix_di_000498816.csv
+        |       matrix_gr_000498816.csv
+        |       matrix_rc_000498816.csv
+        |       matrix_rc_000498816.png
+        |       matrix_si_000498816.csv
+        |       
+        +---000499220
+        |       matrix_co_000499220.csv
+        |       matrix_da_000499220.csv
+        |       matrix_di_000499220.csv
+        |       matrix_gr_000499220.csv
+        |       matrix_rc_000499220.csv
+        |       matrix_rc_000499220.png
+        |       matrix_si_000499220.csv
+        |       
+        +---000499320
+        |       matrix_co_000499320.csv
+        |       matrix_da_000499320.csv
+        |       matrix_di_000499320.csv
+        |       matrix_gr_000499320.csv
+        |       matrix_rc_000499320.csv
+        |       matrix_rc_000499320.png
+        |       matrix_si_000499320.csv
+        |       
+        +---000499421
+        |       matrix_co_000499421.csv
+        |       matrix_da_000499421.csv
+        |       matrix_di_000499421.csv
+        |       matrix_gr_000499421.csv
+        |       matrix_rc_000499421.csv
+        |       matrix_rc_000499421.png
+        |       matrix_si_000499421.csv
+        |       
+        +---000499422
+        |       matrix_co_000499422.csv
+        |       matrix_da_000499422.csv
+        |       matrix_di_000499422.csv
+        |       matrix_gr_000499422.csv
+        |       matrix_rc_000499422.csv
+        |       matrix_rc_000499422.png
+        |       matrix_si_000499422.csv
+        |       
+        +---000499621
+        |       matrix_co_000499621.csv
+        |       matrix_da_000499621.csv
+        |       matrix_di_000499621.csv
+        |       matrix_gr_000499621.csv
+        |       matrix_rc_000499621.csv
+        |       matrix_rc_000499621.png
+        |       matrix_si_000499621.csv
+        |       
+        +---000499721
+        |       matrix_co_000499721.csv
+        |       matrix_da_000499721.csv
+        |       matrix_di_000499721.csv
+        |       matrix_gr_000499721.csv
+        |       matrix_rc_000499721.csv
+        |       matrix_rc_000499721.png
+        |       matrix_si_000499721.csv
+        |       
+        +---000499821
+        |       matrix_co_000499821.csv
+        |       matrix_da_000499821.csv
+        |       matrix_di_000499821.csv
+        |       matrix_gr_000499821.csv
+        |       matrix_rc_000499821.csv
+        |       matrix_rc_000499821.png
+        |       matrix_si_000499821.csv
+        |       
+        +---000499921
+        |       matrix_co_000499921.csv
+        |       matrix_da_000499921.csv
+        |       matrix_di_000499921.csv
+        |       matrix_gr_000499921.csv
+        |       matrix_rc_000499921.csv
+        |       matrix_rc_000499921.png
+        |       matrix_si_000499921.csv
+        |       
+        +---001315402
+        |       matrix_co_001315402.csv
+        |       matrix_da_001315402.csv
+        |       matrix_di_001315402.csv
+        |       matrix_gr_001315402.csv
+        |       matrix_rc_001315402.csv
+        |       matrix_rc_001315402.png
+        |       matrix_si_001315402.csv
+        |       
+        +---001315502
+        |       matrix_co_001315502.csv
+        |       matrix_da_001315502.csv
+        |       matrix_di_001315502.csv
+        |       matrix_gr_001315502.csv
+        |       matrix_rc_001315502.csv
+        |       matrix_si_001315502.csv
+        |       
+        +---001315601
+        |       matrix_co_001315601.csv
+        |       matrix_da_001315601.csv
+        |       matrix_di_001315601.csv
+        |       matrix_gr_001315601.csv
+        |       matrix_rc_001315601.csv
+        |       matrix_rc_001315601.png
+        |       matrix_si_001315601.csv
+        |       
+        +---001315702
+        |       matrix_co_001315702.csv
+        |       matrix_da_001315702.csv
+        |       matrix_di_001315702.csv
+        |       matrix_gr_001315702.csv
+        |       matrix_rc_001315702.csv
+        |       matrix_si_001315702.csv
+        |       
+        +---001315801
+        |       matrix_co_001315801.csv
+        |       matrix_da_001315801.csv
+        |       matrix_di_001315801.csv
+        |       matrix_gr_001315801.csv
+        |       matrix_rc_001315801.csv
+        |       matrix_rc_001315801.png
+        |       matrix_si_001315801.csv
+        |       
+        +---001315802
+        |       matrix_co_001315802.csv
+        |       matrix_da_001315802.csv
+        |       matrix_di_001315802.csv
+        |       matrix_gr_001315802.csv
+        |       matrix_rc_001315802.csv
+        |       matrix_rc_001315802.png
+        |       matrix_si_001315802.csv
+        |       
+        +---001317001
+        |       matrix_co_001317001.csv
+        |       matrix_da_001317001.csv
+        |       matrix_di_001317001.csv
+        |       matrix_gr_001317001.csv
+        |       matrix_rc_001317001.csv
+        |       matrix_si_001317001.csv
+        |       
+        +---001317201
+        |       matrix_co_001317201.csv
+        |       matrix_da_001317201.csv
+        |       matrix_di_001317201.csv
+        |       matrix_gr_001317201.csv
+        |       matrix_rc_001317201.csv
+        |       matrix_rc_001317201.png
+        |       matrix_si_001317201.csv
+        |       
+        +---001317202
+        |       matrix_co_001317202.csv
+        |       matrix_da_001317202.csv
+        |       matrix_di_001317202.csv
+        |       matrix_gr_001317202.csv
+        |       matrix_rc_001317202.csv
+        |       matrix_si_001317202.csv
+        |       
+        +---001317502
+        |       matrix_co_001317502.csv
+        |       matrix_da_001317502.csv
+        |       matrix_di_001317502.csv
+        |       matrix_gr_001317502.csv
+        |       matrix_rc_001317502.csv
+        |       matrix_si_001317502.csv
+        |       
+        +---001371203
+        |       matrix_co_001371203.csv
+        |       matrix_da_001371203.csv
+        |       matrix_di_001371203.csv
+        |       matrix_gr_001371203.csv
+        |       matrix_rc_001371203.csv
+        |       matrix_rc_001371203.png
+        |       matrix_si_001371203.csv
+        |       
+        +---001371403
+        |       matrix_co_001371403.csv
+        |       matrix_da_001371403.csv
+        |       matrix_di_001371403.csv
+        |       matrix_gr_001371403.csv
+        |       matrix_rc_001371403.csv
+        |       matrix_rc_001371403.png
+        |       matrix_si_001371403.csv
+        |       
+        +---001371605
+        |       matrix_co_001371605.csv
+        |       matrix_da_001371605.csv
+        |       matrix_di_001371605.csv
+        |       matrix_gr_001371605.csv
+        |       matrix_rc_001371605.csv
+        |       matrix_rc_001371605.png
+        |       matrix_si_001371605.csv
+        |       
+        +---001371606
+        |       matrix_co_001371606.csv
+        |       matrix_da_001371606.csv
+        |       matrix_di_001371606.csv
+        |       matrix_gr_001371606.csv
+        |       matrix_rc_001371606.csv
+        |       matrix_rc_001371606.png
+        |       matrix_si_001371606.csv
+        |       
+        +---001371805
+        |       matrix_co_001371805.csv
+        |       matrix_da_001371805.csv
+        |       matrix_di_001371805.csv
+        |       matrix_gr_001371805.csv
+        |       matrix_rc_001371805.csv
+        |       matrix_rc_001371805.png
+        |       matrix_si_001371805.csv
+        |       
+        +---001371806
+        |       matrix_co_001371806.csv
+        |       matrix_da_001371806.csv
+        |       matrix_di_001371806.csv
+        |       matrix_gr_001371806.csv
+        |       matrix_rc_001371806.csv
+        |       matrix_rc_001371806.png
+        |       matrix_si_001371806.csv
+        |       
+        +---001371905
+        |       matrix_co_001371905.csv
+        |       matrix_da_001371905.csv
+        |       matrix_di_001371905.csv
+        |       matrix_gr_001371905.csv
+        |       matrix_rc_001371905.csv
+        |       matrix_rc_001371905.png
+        |       matrix_si_001371905.csv
+        |       
+        +---001371906
+        |       matrix_co_001371906.csv
+        |       matrix_da_001371906.csv
+        |       matrix_di_001371906.csv
+        |       matrix_gr_001371906.csv
+        |       matrix_rc_001371906.csv
+        |       matrix_rc_001371906.png
+        |       matrix_si_001371906.csv
+        |       
+        +---001375205
+        |       matrix_co_001375205.csv
+        |       matrix_da_001375205.csv
+        |       matrix_di_001375205.csv
+        |       matrix_gr_001375205.csv
+        |       matrix_rc_001375205.csv
+        |       matrix_rc_001375205.png
+        |       matrix_si_001375205.csv
+        |       
+        +---001375206
+        |       matrix_co_001375206.csv
+        |       matrix_da_001375206.csv
+        |       matrix_di_001375206.csv
+        |       matrix_gr_001375206.csv
+        |       matrix_rc_001375206.csv
+        |       matrix_si_001375206.csv
+        |       
+        +---001375407
+        |       matrix_co_001375407.csv
+        |       matrix_da_001375407.csv
+        |       matrix_di_001375407.csv
+        |       matrix_gr_001375407.csv
+        |       matrix_rc_001375407.csv
+        |       matrix_rc_001375407.png
+        |       matrix_si_001375407.csv
+        |       
+        +---001375408
+        |       matrix_co_001375408.csv
+        |       matrix_da_001375408.csv
+        |       matrix_di_001375408.csv
+        |       matrix_gr_001375408.csv
+        |       matrix_rc_001375408.csv
+        |       matrix_rc_001375408.png
+        |       matrix_si_001375408.csv
+        |       
+        +---001375607
+        |       matrix_co_001375607.csv
+        |       matrix_da_001375607.csv
+        |       matrix_di_001375607.csv
+        |       matrix_gr_001375607.csv
+        |       matrix_rc_001375607.csv
+        |       matrix_rc_001375607.png
+        |       matrix_si_001375607.csv
+        |       
+        +---001375608
+        |       matrix_co_001375608.csv
+        |       matrix_da_001375608.csv
+        |       matrix_di_001375608.csv
+        |       matrix_gr_001375608.csv
+        |       matrix_rc_001375608.csv
+        |       matrix_si_001375608.csv
+        |       
+        +---001375807
+        |       matrix_co_001375807.csv
+        |       matrix_da_001375807.csv
+        |       matrix_di_001375807.csv
+        |       matrix_gr_001375807.csv
+        |       matrix_rc_001375807.csv
+        |       matrix_rc_001375807.png
+        |       matrix_si_001375807.csv
+        |       
+        +---001375808
+        |       matrix_co_001375808.csv
+        |       matrix_da_001375808.csv
+        |       matrix_di_001375808.csv
+        |       matrix_gr_001375808.csv
+        |       matrix_rc_001375808.csv
+        |       matrix_si_001375808.csv
+        |       
+        +---001377209
+        |       matrix_co_001377209.csv
+        |       matrix_da_001377209.csv
+        |       matrix_di_001377209.csv
+        |       matrix_gr_001377209.csv
+        |       matrix_rc_001377209.csv
+        |       matrix_rc_001377209.png
+        |       matrix_si_001377209.csv
+        |       
+        +---001377210
+        |       matrix_co_001377210.csv
+        |       matrix_da_001377210.csv
+        |       matrix_di_001377210.csv
+        |       matrix_gr_001377210.csv
+        |       matrix_rc_001377210.csv
+        |       matrix_rc_001377210.png
+        |       matrix_si_001377210.csv
+        |       
+        +---001377409
+        |       matrix_co_001377409.csv
+        |       matrix_da_001377409.csv
+        |       matrix_di_001377409.csv
+        |       matrix_gr_001377409.csv
+        |       matrix_rc_001377409.csv
+        |       matrix_rc_001377409.png
+        |       matrix_si_001377409.csv
+        |       
+        +---001377410
+        |       matrix_co_001377410.csv
+        |       matrix_da_001377410.csv
+        |       matrix_di_001377410.csv
+        |       matrix_gr_001377410.csv
+        |       matrix_rc_001377410.csv
+        |       matrix_rc_001377410.png
+        |       matrix_si_001377410.csv
+        |       
+        +---001377609
+        |       matrix_co_001377609.csv
+        |       matrix_da_001377609.csv
+        |       matrix_di_001377609.csv
+        |       matrix_gr_001377609.csv
+        |       matrix_rc_001377609.csv
+        |       matrix_rc_001377609.png
+        |       matrix_si_001377609.csv
+        |       
+        +---001377610
+        |       matrix_co_001377610.csv
+        |       matrix_da_001377610.csv
+        |       matrix_di_001377610.csv
+        |       matrix_gr_001377610.csv
+        |       matrix_rc_001377610.csv
+        |       matrix_rc_001377610.png
+        |       matrix_si_001377610.csv
+        |       
+        +---001377812
+        |       matrix_co_001377812.csv
+        |       matrix_da_001377812.csv
+        |       matrix_di_001377812.csv
+        |       matrix_gr_001377812.csv
+        |       matrix_rc_001377812.csv
+        |       matrix_rc_001377812.png
+        |       matrix_si_001377812.csv
+        |       
+        +---001377912
+        |       matrix_co_001377912.csv
+        |       matrix_da_001377912.csv
+        |       matrix_di_001377912.csv
+        |       matrix_gr_001377912.csv
+        |       matrix_rc_001377912.csv
+        |       matrix_rc_001377912.png
+        |       matrix_si_001377912.csv
+        |       
+        +---001393211
+        |       matrix_co_001393211.csv
+        |       matrix_da_001393211.csv
+        |       matrix_di_001393211.csv
+        |       matrix_gr_001393211.csv
+        |       matrix_rc_001393211.csv
+        |       matrix_si_001393211.csv
+        |       
+        +---001393412
+        |       matrix_co_001393412.csv
+        |       matrix_da_001393412.csv
+        |       matrix_di_001393412.csv
+        |       matrix_gr_001393412.csv
+        |       matrix_rc_001393412.csv
+        |       matrix_si_001393412.csv
+        |       
+        +---001393612
+        |       matrix_co_001393612.csv
+        |       matrix_da_001393612.csv
+        |       matrix_di_001393612.csv
+        |       matrix_gr_001393612.csv
+        |       matrix_rc_001393612.csv
+        |       matrix_rc_001393612.png
+        |       matrix_si_001393612.csv
+        |       
+        +---001395112
+        |       matrix_co_001395112.csv
+        |       matrix_da_001395112.csv
+        |       matrix_di_001395112.csv
+        |       matrix_gr_001395112.csv
+        |       matrix_rc_001395112.csv
+        |       matrix_si_001395112.csv
+        |       
+        +---004664313
+        |       matrix_co_004664313.csv
+        |       matrix_da_004664313.csv
+        |       matrix_di_004664313.csv
+        |       matrix_gr_004664313.csv
+        |       matrix_rc_004664313.csv
+        |       matrix_rc_004664313.png
+        |       matrix_si_004664313.csv
+        |       
+        +---004664413
+        |       matrix_co_004664413.csv
+        |       matrix_da_004664413.csv
+        |       matrix_di_004664413.csv
+        |       matrix_gr_004664413.csv
+        |       matrix_rc_004664413.csv
+        |       matrix_rc_004664413.png
+        |       matrix_si_004664413.csv
+        |       
+        +---004664513
+        |       matrix_co_004664513.csv
+        |       matrix_da_004664513.csv
+        |       matrix_di_004664513.csv
+        |       matrix_gr_004664513.csv
+        |       matrix_rc_004664513.csv
+        |       matrix_rc_004664513.png
+        |       matrix_si_004664513.csv
+        |       
+        +---004664613
+        |       matrix_co_004664613.csv
+        |       matrix_da_004664613.csv
+        |       matrix_di_004664613.csv
+        |       matrix_gr_004664613.csv
+        |       matrix_rc_004664613.csv
+        |       matrix_rc_004664613.png
+        |       matrix_si_004664613.csv
+        |       
+        +---004664713
+        |       matrix_co_004664713.csv
+        |       matrix_da_004664713.csv
+        |       matrix_di_004664713.csv
+        |       matrix_gr_004664713.csv
+        |       matrix_rc_004664713.csv
+        |       matrix_rc_004664713.png
+        |       matrix_si_004664713.csv
+        |       
+        +---004664813
+        |       matrix_co_004664813.csv
+        |       matrix_da_004664813.csv
+        |       matrix_di_004664813.csv
+        |       matrix_gr_004664813.csv
+        |       matrix_rc_004664813.csv
+        |       matrix_rc_004664813.png
+        |       matrix_si_004664813.csv
+        |       
+        +---004664913
+        |       matrix_co_004664913.csv
+        |       matrix_da_004664913.csv
+        |       matrix_di_004664913.csv
+        |       matrix_gr_004664913.csv
+        |       matrix_rc_004664913.csv
+        |       matrix_rc_004664913.png
+        |       matrix_si_004664913.csv
+        |       
+        +---004926913
+        |       matrix_co_004926913.csv
+        |       matrix_da_004926913.csv
+        |       matrix_di_004926913.csv
+        |       matrix_gr_004926913.csv
+        |       matrix_rc_004926913.csv
+        |       matrix_si_004926913.csv
+        |       
+        +---004929913
+        |       matrix_co_004929913.csv
+        |       matrix_da_004929913.csv
+        |       matrix_di_004929913.csv
+        |       matrix_gr_004929913.csv
+        |       matrix_rc_004929913.csv
+        |       matrix_rc_004929913.png
+        |       matrix_si_004929913.csv
+        |       
+        +---004979214
+        |       matrix_co_004979214.csv
+        |       matrix_da_004979214.csv
+        |       matrix_di_004979214.csv
+        |       matrix_gr_004979214.csv
+        |       matrix_rc_004979214.csv
+        |       matrix_rc_004979214.png
+        |       matrix_si_004979214.csv
+        |       
+        +---004979314
+        |       matrix_co_004979314.csv
+        |       matrix_da_004979314.csv
+        |       matrix_di_004979314.csv
+        |       matrix_gr_004979314.csv
+        |       matrix_rc_004979314.csv
+        |       matrix_rc_004979314.png
+        |       matrix_si_004979314.csv
+        |       
+        +---004979414
+        |       matrix_co_004979414.csv
+        |       matrix_da_004979414.csv
+        |       matrix_di_004979414.csv
+        |       matrix_gr_004979414.csv
+        |       matrix_rc_004979414.csv
+        |       matrix_rc_004979414.png
+        |       matrix_si_004979414.csv
+        |       
+        +---004979514
+        |       matrix_co_004979514.csv
+        |       matrix_da_004979514.csv
+        |       matrix_di_004979514.csv
+        |       matrix_gr_004979514.csv
+        |       matrix_rc_004979514.csv
+        |       matrix_rc_004979514.png
+        |       matrix_si_004979514.csv
+        |       
+        +---004979614
+        |       matrix_co_004979614.csv
+        |       matrix_da_004979614.csv
+        |       matrix_di_004979614.csv
+        |       matrix_gr_004979614.csv
+        |       matrix_rc_004979614.csv
+        |       matrix_si_004979614.csv
+        |       
+        +---004979714
+        |       matrix_co_004979714.csv
+        |       matrix_da_004979714.csv
+        |       matrix_di_004979714.csv
+        |       matrix_gr_004979714.csv
+        |       matrix_rc_004979714.csv
+        |       matrix_rc_004979714.png
+        |       matrix_si_004979714.csv
+        |       
+        +---004979914
+        |       matrix_co_004979914.csv
+        |       matrix_da_004979914.csv
+        |       matrix_di_004979914.csv
+        |       matrix_gr_004979914.csv
+        |       matrix_rc_004979914.csv
+        |       matrix_rc_004979914.png
+        |       matrix_si_004979914.csv
+        |       
+        +---004979920
+        |       matrix_co_004979920.csv
+        |       matrix_da_004979920.csv
+        |       matrix_di_004979920.csv
+        |       matrix_gr_004979920.csv
+        |       matrix_rc_004979920.csv
+        |       matrix_rc_004979920.png
+        |       matrix_si_004979920.csv
+        |       
+        +---004984119
+        |       matrix_co_004984119.csv
+        |       matrix_da_004984119.csv
+        |       matrix_di_004984119.csv
+        |       matrix_gr_004984119.csv
+        |       matrix_rc_004984119.csv
+        |       matrix_rc_004984119.png
+        |       matrix_si_004984119.csv
+        |       
+        +---004984219
+        |       matrix_co_004984219.csv
+        |       matrix_da_004984219.csv
+        |       matrix_di_004984219.csv
+        |       matrix_gr_004984219.csv
+        |       matrix_rc_004984219.csv
+        |       matrix_rc_004984219.png
+        |       matrix_si_004984219.csv
+        |       
+        +---004984318
+        |       matrix_co_004984318.csv
+        |       matrix_da_004984318.csv
+        |       matrix_di_004984318.csv
+        |       matrix_gr_004984318.csv
+        |       matrix_rc_004984318.csv
+        |       matrix_rc_004984318.png
+        |       matrix_si_004984318.csv
+        |       
+        +---004984319
+        |       matrix_co_004984319.csv
+        |       matrix_da_004984319.csv
+        |       matrix_di_004984319.csv
+        |       matrix_gr_004984319.csv
+        |       matrix_rc_004984319.csv
+        |       matrix_rc_004984319.png
+        |       matrix_si_004984319.csv
+        |       
+        +---004984418
+        |       matrix_co_004984418.csv
+        |       matrix_da_004984418.csv
+        |       matrix_di_004984418.csv
+        |       matrix_gr_004984418.csv
+        |       matrix_rc_004984418.csv
+        |       matrix_rc_004984418.png
+        |       matrix_si_004984418.csv
+        |       
+        +---004984518
+        |       matrix_co_004984518.csv
+        |       matrix_da_004984518.csv
+        |       matrix_di_004984518.csv
+        |       matrix_gr_004984518.csv
+        |       matrix_rc_004984518.csv
+        |       matrix_rc_004984518.png
+        |       matrix_si_004984518.csv
+        |       
+        +---004984618
+        |       matrix_co_004984618.csv
+        |       matrix_da_004984618.csv
+        |       matrix_di_004984618.csv
+        |       matrix_gr_004984618.csv
+        |       matrix_rc_004984618.csv
+        |       matrix_rc_004984618.png
+        |       matrix_si_004984618.csv
+        |       
+        +---004984718
+        |       matrix_co_004984718.csv
+        |       matrix_da_004984718.csv
+        |       matrix_di_004984718.csv
+        |       matrix_gr_004984718.csv
+        |       matrix_rc_004984718.csv
+        |       matrix_rc_004984718.png
+        |       matrix_si_004984718.csv
+        |       
+        +---004984818
+        |       matrix_co_004984818.csv
+        |       matrix_da_004984818.csv
+        |       matrix_di_004984818.csv
+        |       matrix_gr_004984818.csv
+        |       matrix_rc_004984818.csv
+        |       matrix_rc_004984818.png
+        |       matrix_si_004984818.csv
+        |       
+        +---004984918
+        |       matrix_co_004984918.csv
+        |       matrix_da_004984918.csv
+        |       matrix_di_004984918.csv
+        |       matrix_gr_004984918.csv
+        |       matrix_rc_004984918.csv
+        |       matrix_rc_004984918.png
+        |       matrix_si_004984918.csv
+        |       
+        +---004987115
+        |       matrix_co_004987115.csv
+        |       matrix_da_004987115.csv
+        |       matrix_di_004987115.csv
+        |       matrix_gr_004987115.csv
+        |       matrix_rc_004987115.csv
+        |       matrix_rc_004987115.png
+        |       matrix_si_004987115.csv
+        |       
+        +---004987215
+        |       matrix_co_004987215.csv
+        |       matrix_da_004987215.csv
+        |       matrix_di_004987215.csv
+        |       matrix_gr_004987215.csv
+        |       matrix_rc_004987215.csv
+        |       matrix_rc_004987215.png
+        |       matrix_si_004987215.csv
+        |       
+        +---004987315
+        |       matrix_co_004987315.csv
+        |       matrix_da_004987315.csv
+        |       matrix_di_004987315.csv
+        |       matrix_gr_004987315.csv
+        |       matrix_rc_004987315.csv
+        |       matrix_rc_004987315.png
+        |       matrix_si_004987315.csv
+        |       
+        +---004987415
+        |       matrix_co_004987415.csv
+        |       matrix_da_004987415.csv
+        |       matrix_di_004987415.csv
+        |       matrix_gr_004987415.csv
+        |       matrix_rc_004987415.csv
+        |       matrix_rc_004987415.png
+        |       matrix_si_004987415.csv
+        |       
+        +---004987416
+        |       matrix_co_004987416.csv
+        |       matrix_da_004987416.csv
+        |       matrix_di_004987416.csv
+        |       matrix_gr_004987416.csv
+        |       matrix_rc_004987416.csv
+        |       matrix_si_004987416.csv
+        |       
+        +---004987515
+        |       matrix_co_004987515.csv
+        |       matrix_da_004987515.csv
+        |       matrix_di_004987515.csv
+        |       matrix_gr_004987515.csv
+        |       matrix_rc_004987515.csv
+        |       matrix_si_004987515.csv
+        |       
+        +---004987615
+        |       matrix_co_004987615.csv
+        |       matrix_da_004987615.csv
+        |       matrix_di_004987615.csv
+        |       matrix_gr_004987615.csv
+        |       matrix_rc_004987615.csv
+        |       matrix_rc_004987615.png
+        |       matrix_si_004987615.csv
+        |       
+        +---004987715
+        |       matrix_co_004987715.csv
+        |       matrix_da_004987715.csv
+        |       matrix_di_004987715.csv
+        |       matrix_gr_004987715.csv
+        |       matrix_rc_004987715.csv
+        |       matrix_rc_004987715.png
+        |       matrix_si_004987715.csv
+        |       
+        +---004987815
+        |       matrix_co_004987815.csv
+        |       matrix_da_004987815.csv
+        |       matrix_di_004987815.csv
+        |       matrix_gr_004987815.csv
+        |       matrix_rc_004987815.csv
+        |       matrix_rc_004987815.png
+        |       matrix_si_004987815.csv
+        |       
+        +---004987915
+        |       matrix_co_004987915.csv
+        |       matrix_da_004987915.csv
+        |       matrix_di_004987915.csv
+        |       matrix_gr_004987915.csv
+        |       matrix_rc_004987915.csv
+        |       matrix_rc_004987915.png
+        |       matrix_si_004987915.csv
+        |       
+        +---004989115
+        |       matrix_co_004989115.csv
+        |       matrix_da_004989115.csv
+        |       matrix_di_004989115.csv
+        |       matrix_gr_004989115.csv
+        |       matrix_rc_004989115.csv
+        |       matrix_rc_004989115.png
+        |       matrix_si_004989115.csv
+        |       
+        +---004989116
+        |       matrix_co_004989116.csv
+        |       matrix_da_004989116.csv
+        |       matrix_di_004989116.csv
+        |       matrix_gr_004989116.csv
+        |       matrix_rc_004989116.csv
+        |       matrix_rc_004989116.png
+        |       matrix_si_004989116.csv
+        |       
+        +---004989217
+        |       matrix_co_004989217.csv
+        |       matrix_da_004989217.csv
+        |       matrix_di_004989217.csv
+        |       matrix_gr_004989217.csv
+        |       matrix_rc_004989217.csv
+        |       matrix_rc_004989217.png
+        |       matrix_si_004989217.csv
+        |       
+        +---004989417
+        |       matrix_co_004989417.csv
+        |       matrix_da_004989417.csv
+        |       matrix_di_004989417.csv
+        |       matrix_gr_004989417.csv
+        |       matrix_rc_004989417.csv
+        |       matrix_rc_004989417.png
+        |       matrix_si_004989417.csv
+        |       
+        +---004989517
+        |       matrix_co_004989517.csv
+        |       matrix_da_004989517.csv
+        |       matrix_di_004989517.csv
+        |       matrix_gr_004989517.csv
+        |       matrix_rc_004989517.csv
+        |       matrix_rc_004989517.png
+        |       matrix_si_004989517.csv
+        |       
+        +---004989617
+        |       matrix_co_004989617.csv
+        |       matrix_da_004989617.csv
+        |       matrix_di_004989617.csv
+        |       matrix_gr_004989617.csv
+        |       matrix_rc_004989617.csv
+        |       matrix_rc_004989617.png
+        |       matrix_si_004989617.csv
+        |       
+        +---004989717
+        |       matrix_co_004989717.csv
+        |       matrix_da_004989717.csv
+        |       matrix_di_004989717.csv
+        |       matrix_gr_004989717.csv
+        |       matrix_rc_004989717.csv
+        |       matrix_rc_004989717.png
+        |       matrix_si_004989717.csv
+        |       
+        +---004989817
+        |       matrix_co_004989817.csv
+        |       matrix_da_004989817.csv
+        |       matrix_di_004989817.csv
+        |       matrix_gr_004989817.csv
+        |       matrix_rc_004989817.csv
+        |       matrix_rc_004989817.png
+        |       matrix_si_004989817.csv
+        |       
+        +---004989917
+        |       matrix_co_004989917.csv
+        |       matrix_da_004989917.csv
+        |       matrix_di_004989917.csv
+        |       matrix_gr_004989917.csv
+        |       matrix_rc_004989917.csv
+        |       matrix_rc_004989917.png
+        |       matrix_si_004989917.csv
+        |       
+        +---004991120
+        |       matrix_co_004991120.csv
+        |       matrix_da_004991120.csv
+        |       matrix_di_004991120.csv
+        |       matrix_gr_004991120.csv
+        |       matrix_rc_004991120.csv
+        |       matrix_rc_004991120.png
+        |       matrix_si_004991120.csv
+        |       
+        +---004991220
+        |       matrix_co_004991220.csv
+        |       matrix_da_004991220.csv
+        |       matrix_di_004991220.csv
+        |       matrix_gr_004991220.csv
+        |       matrix_rc_004991220.csv
+        |       matrix_rc_004991220.png
+        |       matrix_si_004991220.csv
+        |       
+        +---004991314
+        |       matrix_co_004991314.csv
+        |       matrix_da_004991314.csv
+        |       matrix_di_004991314.csv
+        |       matrix_gr_004991314.csv
+        |       matrix_rc_004991314.csv
+        |       matrix_si_004991314.csv
+        |       
+        +---004991320
+        |       matrix_co_004991320.csv
+        |       matrix_da_004991320.csv
+        |       matrix_di_004991320.csv
+        |       matrix_gr_004991320.csv
+        |       matrix_rc_004991320.csv
+        |       matrix_rc_004991320.png
+        |       matrix_si_004991320.csv
+        |       
+        +---004991420
+        |       matrix_co_004991420.csv
+        |       matrix_da_004991420.csv
+        |       matrix_di_004991420.csv
+        |       matrix_gr_004991420.csv
+        |       matrix_rc_004991420.csv
+        |       matrix_rc_004991420.png
+        |       matrix_si_004991420.csv
+        |       
+        +---004991520
+        |       matrix_co_004991520.csv
+        |       matrix_da_004991520.csv
+        |       matrix_di_004991520.csv
+        |       matrix_gr_004991520.csv
+        |       matrix_rc_004991520.csv
+        |       matrix_rc_004991520.png
+        |       matrix_si_004991520.csv
+        |       
+        +---004991620
+        |       matrix_co_004991620.csv
+        |       matrix_da_004991620.csv
+        |       matrix_di_004991620.csv
+        |       matrix_gr_004991620.csv
+        |       matrix_rc_004991620.csv
+        |       matrix_rc_004991620.png
+        |       matrix_si_004991620.csv
+        |       
+        +---004991720
+        |       matrix_co_004991720.csv
+        |       matrix_da_004991720.csv
+        |       matrix_di_004991720.csv
+        |       matrix_gr_004991720.csv
+        |       matrix_rc_004991720.csv
+        |       matrix_rc_004991720.png
+        |       matrix_si_004991720.csv
+        |       
+        +---004991820
+        |       matrix_co_004991820.csv
+        |       matrix_da_004991820.csv
+        |       matrix_di_004991820.csv
+        |       matrix_gr_004991820.csv
+        |       matrix_rc_004991820.csv
+        |       matrix_rc_004991820.png
+        |       matrix_si_004991820.csv
+        |       
+        +---004991920
+        |       matrix_co_004991920.csv
+        |       matrix_da_004991920.csv
+        |       matrix_di_004991920.csv
+        |       matrix_gr_004991920.csv
+        |       matrix_rc_004991920.csv
+        |       matrix_rc_004991920.png
+        |       matrix_si_004991920.csv
+        |       
+        +---004995122
+        |       matrix_co_004995122.csv
+        |       matrix_da_004995122.csv
+        |       matrix_di_004995122.csv
+        |       matrix_gr_004995122.csv
+        |       matrix_rc_004995122.csv
+        |       matrix_rc_004995122.png
+        |       matrix_si_004995122.csv
+        |       
+        +---004995221
+        |       matrix_co_004995221.csv
+        |       matrix_da_004995221.csv
+        |       matrix_di_004995221.csv
+        |       matrix_gr_004995221.csv
+        |       matrix_rc_004995221.csv
+        |       matrix_si_004995221.csv
+        |       
+        +---004995222
+        |       matrix_co_004995222.csv
+        |       matrix_da_004995222.csv
+        |       matrix_di_004995222.csv
+        |       matrix_gr_004995222.csv
+        |       matrix_rc_004995222.csv
+        |       matrix_rc_004995222.png
+        |       matrix_si_004995222.csv
+        |       
+        +---004995321
+        |       matrix_co_004995321.csv
+        |       matrix_da_004995321.csv
+        |       matrix_di_004995321.csv
+        |       matrix_gr_004995321.csv
+        |       matrix_rc_004995321.csv
+        |       matrix_rc_004995321.png
+        |       matrix_si_004995321.csv
+        |       
+        +---004995322
+        |       matrix_co_004995322.csv
+        |       matrix_da_004995322.csv
+        |       matrix_di_004995322.csv
+        |       matrix_gr_004995322.csv
+        |       matrix_rc_004995322.csv
+        |       matrix_rc_004995322.png
+        |       matrix_si_004995322.csv
+        |       
+        +---004995421
+        |       matrix_co_004995421.csv
+        |       matrix_da_004995421.csv
+        |       matrix_di_004995421.csv
+        |       matrix_gr_004995421.csv
+        |       matrix_rc_004995421.csv
+        |       matrix_rc_004995421.png
+        |       matrix_si_004995421.csv
+        |       
+        +---004995521
+        |       matrix_co_004995521.csv
+        |       matrix_da_004995521.csv
+        |       matrix_di_004995521.csv
+        |       matrix_gr_004995521.csv
+        |       matrix_rc_004995521.csv
+        |       matrix_rc_004995521.png
+        |       matrix_si_004995521.csv
+        |       
+        +---004995621
+        |       matrix_co_004995621.csv
+        |       matrix_da_004995621.csv
+        |       matrix_di_004995621.csv
+        |       matrix_gr_004995621.csv
+        |       matrix_rc_004995621.csv
+        |       matrix_rc_004995621.png
+        |       matrix_si_004995621.csv
+        |       
+        +---004995721
+        |       matrix_co_004995721.csv
+        |       matrix_da_004995721.csv
+        |       matrix_di_004995721.csv
+        |       matrix_gr_004995721.csv
+        |       matrix_rc_004995721.csv
+        |       matrix_rc_004995721.png
+        |       matrix_si_004995721.csv
+        |       
+        +---004995921
+        |       matrix_co_004995921.csv
+        |       matrix_da_004995921.csv
+        |       matrix_di_004995921.csv
+        |       matrix_gr_004995921.csv
+        |       matrix_rc_004995921.csv
+        |       matrix_rc_004995921.png
+        |       matrix_si_004995921.csv
+        |       
+        +---013715203
+        |       matrix_co_013715203.csv
+        |       matrix_da_013715203.csv
+        |       matrix_di_013715203.csv
+        |       matrix_gr_013715203.csv
+        |       matrix_rc_013715203.csv
+        |       matrix_si_013715203.csv
+        |       
+        +---013715204
+        |       matrix_co_013715204.csv
+        |       matrix_da_013715204.csv
+        |       matrix_di_013715204.csv
+        |       matrix_gr_013715204.csv
+        |       matrix_rc_013715204.csv
+        |       matrix_si_013715204.csv
+        |       
+        +---013715304
+        |       matrix_co_013715304.csv
+        |       matrix_da_013715304.csv
+        |       matrix_di_013715304.csv
+        |       matrix_gr_013715304.csv
+        |       matrix_rc_013715304.csv
+        |       matrix_si_013715304.csv
+        |       
+        +---013715403
+        |       matrix_co_013715403.csv
+        |       matrix_da_013715403.csv
+        |       matrix_di_013715403.csv
+        |       matrix_gr_013715403.csv
+        |       matrix_rc_013715403.csv
+        |       matrix_rc_013715403.png
+        |       matrix_si_013715403.csv
+        |       
+        +---013715605
+        |       matrix_co_013715605.csv
+        |       matrix_da_013715605.csv
+        |       matrix_di_013715605.csv
+        |       matrix_gr_013715605.csv
+        |       matrix_rc_013715605.csv
+        |       matrix_rc_013715605.png
+        |       matrix_si_013715605.csv
+        |       
+        +---013715606
+        |       matrix_co_013715606.csv
+        |       matrix_da_013715606.csv
+        |       matrix_di_013715606.csv
+        |       matrix_gr_013715606.csv
+        |       matrix_rc_013715606.csv
+        |       matrix_rc_013715606.png
+        |       matrix_si_013715606.csv
+        |       
+        +---013715706
+        |       matrix_co_013715706.csv
+        |       matrix_da_013715706.csv
+        |       matrix_di_013715706.csv
+        |       matrix_gr_013715706.csv
+        |       matrix_rc_013715706.csv
+        |       matrix_si_013715706.csv
+        |       
+        +---013715806
+        |       matrix_co_013715806.csv
+        |       matrix_da_013715806.csv
+        |       matrix_di_013715806.csv
+        |       matrix_gr_013715806.csv
+        |       matrix_rc_013715806.csv
+        |       matrix_si_013715806.csv
+        |       
+        +---013715906
+        |       matrix_co_013715906.csv
+        |       matrix_da_013715906.csv
+        |       matrix_di_013715906.csv
+        |       matrix_gr_013715906.csv
+        |       matrix_rc_013715906.csv
+        |       matrix_si_013715906.csv
+        |       
+        +---013753106
+        |       matrix_co_013753106.csv
+        |       matrix_da_013753106.csv
+        |       matrix_di_013753106.csv
+        |       matrix_gr_013753106.csv
+        |       matrix_rc_013753106.csv
+        |       matrix_si_013753106.csv
+        |       
+        +---013753205
+        |       matrix_co_013753205.csv
+        |       matrix_da_013753205.csv
+        |       matrix_di_013753205.csv
+        |       matrix_gr_013753205.csv
+        |       matrix_rc_013753205.csv
+        |       matrix_rc_013753205.png
+        |       matrix_si_013753205.csv
+        |       
+        +---013753206
+        |       matrix_co_013753206.csv
+        |       matrix_da_013753206.csv
+        |       matrix_di_013753206.csv
+        |       matrix_gr_013753206.csv
+        |       matrix_rc_013753206.csv
+        |       matrix_rc_013753206.png
+        |       matrix_si_013753206.csv
+        |       
+        +---013753306
+        |       matrix_co_013753306.csv
+        |       matrix_da_013753306.csv
+        |       matrix_di_013753306.csv
+        |       matrix_gr_013753306.csv
+        |       matrix_rc_013753306.csv
+        |       matrix_si_013753306.csv
+        |       
+        +---013753405
+        |       matrix_co_013753405.csv
+        |       matrix_da_013753405.csv
+        |       matrix_di_013753405.csv
+        |       matrix_gr_013753405.csv
+        |       matrix_rc_013753405.csv
+        |       matrix_si_013753405.csv
+        |       
+        +---013753406
+        |       matrix_co_013753406.csv
+        |       matrix_da_013753406.csv
+        |       matrix_di_013753406.csv
+        |       matrix_gr_013753406.csv
+        |       matrix_rc_013753406.csv
+        |       matrix_rc_013753406.png
+        |       matrix_si_013753406.csv
+        |       
+        +---013753906
+        |       matrix_co_013753906.csv
+        |       matrix_da_013753906.csv
+        |       matrix_di_013753906.csv
+        |       matrix_gr_013753906.csv
+        |       matrix_rc_013753906.csv
+        |       matrix_si_013753906.csv
+        |       
+        +---013755207
+        |       matrix_co_013755207.csv
+        |       matrix_da_013755207.csv
+        |       matrix_di_013755207.csv
+        |       matrix_gr_013755207.csv
+        |       matrix_rc_013755207.csv
+        |       matrix_rc_013755207.png
+        |       matrix_si_013755207.csv
+        |       
+        +---013755407
+        |       matrix_co_013755407.csv
+        |       matrix_da_013755407.csv
+        |       matrix_di_013755407.csv
+        |       matrix_gr_013755407.csv
+        |       matrix_rc_013755407.csv
+        |       matrix_si_013755407.csv
+        |       
+        +---013755408
+        |       matrix_co_013755408.csv
+        |       matrix_da_013755408.csv
+        |       matrix_di_013755408.csv
+        |       matrix_gr_013755408.csv
+        |       matrix_rc_013755408.csv
+        |       matrix_si_013755408.csv
+        |       
+        +---013755607
+        |       matrix_co_013755607.csv
+        |       matrix_da_013755607.csv
+        |       matrix_di_013755607.csv
+        |       matrix_gr_013755607.csv
+        |       matrix_rc_013755607.csv
+        |       matrix_rc_013755607.png
+        |       matrix_si_013755607.csv
+        |       
+        +---013755608
+        |       matrix_co_013755608.csv
+        |       matrix_da_013755608.csv
+        |       matrix_di_013755608.csv
+        |       matrix_gr_013755608.csv
+        |       matrix_rc_013755608.csv
+        |       matrix_si_013755608.csv
+        |       
+        +---013755807
+        |       matrix_co_013755807.csv
+        |       matrix_da_013755807.csv
+        |       matrix_di_013755807.csv
+        |       matrix_gr_013755807.csv
+        |       matrix_rc_013755807.csv
+        |       matrix_rc_013755807.png
+        |       matrix_si_013755807.csv
+        |       
+        +---013755808
+        |       matrix_co_013755808.csv
+        |       matrix_da_013755808.csv
+        |       matrix_di_013755808.csv
+        |       matrix_gr_013755808.csv
+        |       matrix_rc_013755808.csv
+        |       matrix_rc_013755808.png
+        |       matrix_si_013755808.csv
+        |       
+        +---013757207
+        |       matrix_co_013757207.csv
+        |       matrix_da_013757207.csv
+        |       matrix_di_013757207.csv
+        |       matrix_gr_013757207.csv
+        |       matrix_rc_013757207.csv
+        |       matrix_rc_013757207.png
+        |       matrix_si_013757207.csv
+        |       
+        +---013759207
+        |       matrix_co_013759207.csv
+        |       matrix_da_013759207.csv
+        |       matrix_di_013759207.csv
+        |       matrix_gr_013759207.csv
+        |       matrix_rc_013759207.csv
+        |       matrix_rc_013759207.png
+        |       matrix_si_013759207.csv
+        |       
+        +---013759208
+        |       matrix_co_013759208.csv
+        |       matrix_da_013759208.csv
+        |       matrix_di_013759208.csv
+        |       matrix_gr_013759208.csv
+        |       matrix_rc_013759208.csv
+        |       matrix_rc_013759208.png
+        |       matrix_si_013759208.csv
+        |       
+        +---013759308
+        |       matrix_co_013759308.csv
+        |       matrix_da_013759308.csv
+        |       matrix_di_013759308.csv
+        |       matrix_gr_013759308.csv
+        |       matrix_rc_013759308.csv
+        |       matrix_rc_013759308.png
+        |       matrix_si_013759308.csv
+        |       
+        +---013759408
+        |       matrix_co_013759408.csv
+        |       matrix_da_013759408.csv
+        |       matrix_di_013759408.csv
+        |       matrix_gr_013759408.csv
+        |       matrix_rc_013759408.csv
+        |       matrix_rc_013759408.png
+        |       matrix_si_013759408.csv
+        |       
+        +---013759608
+        |       matrix_co_013759608.csv
+        |       matrix_da_013759608.csv
+        |       matrix_di_013759608.csv
+        |       matrix_gr_013759608.csv
+        |       matrix_rc_013759608.csv
+        |       matrix_si_013759608.csv
+        |       
+        +---013759708
+        |       matrix_co_013759708.csv
+        |       matrix_da_013759708.csv
+        |       matrix_di_013759708.csv
+        |       matrix_gr_013759708.csv
+        |       matrix_rc_013759708.csv
+        |       matrix_si_013759708.csv
+        |       
+        +---013759807
+        |       matrix_co_013759807.csv
+        |       matrix_da_013759807.csv
+        |       matrix_di_013759807.csv
+        |       matrix_gr_013759807.csv
+        |       matrix_rc_013759807.csv
+        |       matrix_rc_013759807.png
+        |       matrix_si_013759807.csv
+        |       
+        +---013759808
+        |       matrix_co_013759808.csv
+        |       matrix_da_013759808.csv
+        |       matrix_di_013759808.csv
+        |       matrix_gr_013759808.csv
+        |       matrix_rc_013759808.csv
+        |       matrix_rc_013759808.png
+        |       matrix_si_013759808.csv
+        |       
+        +---013771409
+        |       matrix_co_013771409.csv
+        |       matrix_da_013771409.csv
+        |       matrix_di_013771409.csv
+        |       matrix_gr_013771409.csv
+        |       matrix_rc_013771409.csv
+        |       matrix_si_013771409.csv
+        |       
+        +---013771410
+        |       matrix_co_013771410.csv
+        |       matrix_da_013771410.csv
+        |       matrix_di_013771410.csv
+        |       matrix_gr_013771410.csv
+        |       matrix_rc_013771410.csv
+        |       matrix_rc_013771410.png
+        |       matrix_si_013771410.csv
+        |       
+        +---013771609
+        |       matrix_co_013771609.csv
+        |       matrix_da_013771609.csv
+        |       matrix_di_013771609.csv
+        |       matrix_gr_013771609.csv
+        |       matrix_rc_013771609.csv
+        |       matrix_rc_013771609.png
+        |       matrix_si_013771609.csv
+        |       
+        +---013771610
+        |       matrix_co_013771610.csv
+        |       matrix_da_013771610.csv
+        |       matrix_di_013771610.csv
+        |       matrix_gr_013771610.csv
+        |       matrix_rc_013771610.csv
+        |       matrix_si_013771610.csv
+        |       
+        +---013771910
+        |       matrix_co_013771910.csv
+        |       matrix_da_013771910.csv
+        |       matrix_di_013771910.csv
+        |       matrix_gr_013771910.csv
+        |       matrix_rc_013771910.csv
+        |       matrix_si_013771910.csv
+        |       
+        +---013775410
+        |       matrix_co_013775410.csv
+        |       matrix_da_013775410.csv
+        |       matrix_di_013775410.csv
+        |       matrix_gr_013775410.csv
+        |       matrix_rc_013775410.csv
+        |       matrix_rc_013775410.png
+        |       matrix_si_013775410.csv
+        |       
+        +---013777110
+        |       matrix_co_013777110.csv
+        |       matrix_da_013777110.csv
+        |       matrix_di_013777110.csv
+        |       matrix_gr_013777110.csv
+        |       matrix_rc_013777110.csv
+        |       matrix_rc_013777110.png
+        |       matrix_si_013777110.csv
+        |       
+        +---013777210
+        |       matrix_co_013777210.csv
+        |       matrix_da_013777210.csv
+        |       matrix_di_013777210.csv
+        |       matrix_gr_013777210.csv
+        |       matrix_rc_013777210.csv
+        |       matrix_rc_013777210.png
+        |       matrix_si_013777210.csv
+        |       
+        +---013777310
+        |       matrix_co_013777310.csv
+        |       matrix_da_013777310.csv
+        |       matrix_di_013777310.csv
+        |       matrix_gr_013777310.csv
+        |       matrix_rc_013777310.csv
+        |       matrix_rc_013777310.png
+        |       matrix_si_013777310.csv
+        |       
+        +---013777312
+        |       matrix_co_013777312.csv
+        |       matrix_da_013777312.csv
+        |       matrix_di_013777312.csv
+        |       matrix_gr_013777312.csv
+        |       matrix_rc_013777312.csv
+        |       matrix_si_013777312.csv
+        |       
+        +---013777912
+        |       matrix_co_013777912.csv
+        |       matrix_da_013777912.csv
+        |       matrix_di_013777912.csv
+        |       matrix_gr_013777912.csv
+        |       matrix_rc_013777912.csv
+        |       matrix_rc_013777912.png
+        |       matrix_si_013777912.csv
+        |       
+        +---137551108
+        |       matrix_co_137551108.csv
+        |       matrix_da_137551108.csv
+        |       matrix_di_137551108.csv
+        |       matrix_gr_137551108.csv
+        |       matrix_rc_137551108.csv
+        |       matrix_rc_137551108.png
+        |       matrix_si_137551108.csv
+        |       
+        +---137551207
+        |       matrix_co_137551207.csv
+        |       matrix_da_137551207.csv
+        |       matrix_di_137551207.csv
+        |       matrix_gr_137551207.csv
+        |       matrix_rc_137551207.csv
+        |       matrix_rc_137551207.png
+        |       matrix_si_137551207.csv
+        |       
+        +---137551908
+        |       matrix_co_137551908.csv
+        |       matrix_da_137551908.csv
+        |       matrix_di_137551908.csv
+        |       matrix_gr_137551908.csv
+        |       matrix_rc_137551908.csv
+        |       matrix_rc_137551908.png
+        |       matrix_si_137551908.csv
+        |       
+        +---137553407
+        |       matrix_co_137553407.csv
+        |       matrix_da_137553407.csv
+        |       matrix_di_137553407.csv
+        |       matrix_gr_137553407.csv
+        |       matrix_rc_137553407.csv
+        |       matrix_rc_137553407.png
+        |       matrix_si_137553407.csv
+        |       
+        +---137595208
+        |       matrix_co_137595208.csv
+        |       matrix_da_137595208.csv
+        |       matrix_di_137595208.csv
+        |       matrix_gr_137595208.csv
+        |       matrix_rc_137595208.csv
+        |       matrix_si_137595208.csv
+        |       
+        +---137595908
+        |       matrix_co_137595908.csv
+        |       matrix_da_137595908.csv
+        |       matrix_di_137595908.csv
+        |       matrix_gr_137595908.csv
+        |       matrix_rc_137595908.csv
+        |       matrix_rc_137595908.png
+        |       matrix_si_137595908.csv
+        |       
+        \---137599208
+                matrix_co_137599208.csv
+                matrix_da_137599208.csv
+                matrix_di_137599208.csv
+                matrix_gr_137599208.csv
+                matrix_rc_137599208.csv
+                matrix_rc_137599208.png
+                matrix_si_137599208.csv
+                
