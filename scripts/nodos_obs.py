@@ -6,10 +6,10 @@ arcpy.env.overwriteOutput = True
 
 _factor = 0.3
 
-cuencas = r'D:\DANELROCK_PC\devs\ehidrometrica\static\ehidrometrica.gdb\EH_GPO_Cuenca'
+cuencas = r'D:\SENAMHI\ehidrometrica\ehidrometrica\static\ehidrometrica.gdb\EH_GPO_Cuenca'
 _codigo = 'CODIGO'  # Codigo de la cuenca
 
-redHidrica = r'D:\DANELROCK_PC\devs\ehidrometrica\static\ehidrometrica.gdb\EH_GPL_RedHidrica'
+redHidrica = r'D:\SENAMHI\ehidrometrica\ehidrometrica\static\ehidrometrica.gdb\EH_GPL_RedHidrica'
 _codcuenca = 'CODCUENCA'  # Codigo de la cuenca
 _rprin = 'RPRIN'  # Rio principal
 _gridcode = 'GRID_CODE'  # Orden de rio
