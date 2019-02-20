@@ -101,9 +101,13 @@ venv/
 venv
 
 static/base/
+static/matrix/
 static/img/
 static/output/
 static/shp/
+static/MCA/
+static/criterios.gdb
+static/criterios1.gdb
 
 setup/
 
