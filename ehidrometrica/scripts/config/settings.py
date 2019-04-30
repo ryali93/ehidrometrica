@@ -25,7 +25,7 @@ MATRIX_DIR = os.path.join(STATIC, 'matrix')
 TB_IDRC = os.path.join(STATIC, 'ehidrometrica.gdb\\TB_IDRC')
 
 # Geodatabase
-EHIDROMETRICA = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPT_EstacionHidrometrica_v7')
+EHIDROMETRICA = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPT_Base')
 
-# # Directorio de archivos temporales
-# TEMP = os.path.join(BASE_DIR, "temp")
+# Directorio de archivos temporales
+TEMP = os.path.join(BASE_DIR, "temp")

@@ -3,9 +3,9 @@
 
 import traceback
 import numpy as np
-from _karaziev_criterios import *
-from make_matrix import *
-from _karaziev_longcor import *
+from _kzv_criterios import *
+from _kzv_make_matrix import *
+from _kzv_longcor import *
 
 # Variables globales
 BUDYKO_FIELD = 'q_bdk'

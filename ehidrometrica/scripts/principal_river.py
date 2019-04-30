@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
 
 import arcpy
+from config.settings import *
+import os
 
 arcpy.env.overwriteOutput = True
 
 _factor = 0.3
 
-cuencas = r'D:\SENAMHI\ehidrometrica\ehidrometrica\static\ehidrometrica.gdb\EH_GPO_Cuenca'
+cuencas = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPO_Cuenca')
 _codigo = 'CODIGO'  # Codigo de la cuenca
 
-redHidrica = r'D:\SENAMHI\ehidrometrica\ehidrometrica\static\ehidrometrica.gdb\EH_GPL_RedHidrica'
+redHidrica = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPL_RedHidrica')
 _codcuenca = 'CODCUENCA'  # Codigo de la cuenca
 _rprin = 'RPRIN'  # Rio principal
 _gridcode = 'GRID_CODE'  # Orden de rio
@@ -17,6 +19,12 @@ _gridcode = 'GRID_CODE'  # Orden de rio
 shp_cuencas = {i[0]: i[-1] for i in arcpy.da.SearchCursor(cuencas, [_codigo, 'SHAPE@'])}
 rhLayer = arcpy.MakeFeatureLayer_management(redHidrica, 'mfl')  # Feature layer de la ref hidrica (redHidrica)
 
+def agregar_campo(capa, nombre, tipo, longitud=None):
+    if nombre not in [x.name for x in arcpy.ListFields(capa)]:
+        arcpy.AddField_management(capa, nombre, tipo, "#","#", longitud)
+
+agregar_campo(redHidrica, _codcuenca, "TEXT", 50)
+agregar_campo(redHidrica, _rprin, "LONG")
 
 def determinar_rio_principal(codigo, shape):
     """

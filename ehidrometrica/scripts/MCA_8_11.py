@@ -24,9 +24,8 @@ C11:
 4: (f) Industrial
 4: (g) Navegación
 """
-import sys
 import arcpy
-import os
+from config.settings import *
 
 arcpy.env.overwriteOutput = True
 
@@ -34,7 +33,7 @@ def criterio8():
     pass
 
 def criterio11_first():
-    gdb = r'D:\SENAMHI\ehidrometrica\ehidrometrica\static\users.gdb'
+    gdb = os.path.join(STATIC, 'users.gdb')
     arcpy.env.workspace = gdb
     scratch = arcpy.env.scratchGDB
     listFeature = arcpy.ListFeatureClasses()

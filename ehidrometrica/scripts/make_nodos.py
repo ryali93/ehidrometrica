@@ -7,9 +7,9 @@ from config.settings import *
 arcpy.env.overwriteOutput = True
 
 ORDEN_RIOS = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPL_RedHidrica')
-CUENCAS = r'D:\SENAMHI\ehidrometrica\test\EH_GPO_HYDROHSED12.shp'
-OUTPUT = r'D:\SENAMHI\ehidrometrica\test\EH_Base3.shp'
-OUTPUT_GDB = r'D:\SENAMHI\ehidrometrica\ehidrometrica\static\ehidrometrica.gdb\EH_GPT_Base_Titicaca'
+CUENCAS = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPO_HYDROHSED12')
+OUTPUT = os.path.join(TEMP, 'EH_Base.shp')
+OUTPUT_GDB = os.path.join(STATIC, 'ehidrometrica.gdb\EH_GPT_Base')
 
 ORDEN_RIOS = arcpy.Intersect_analysis([ORDEN_RIOS, CUENCAS], 'in_memory\\rios', 'ALL', '#', 'INPUT')
 rows = list()

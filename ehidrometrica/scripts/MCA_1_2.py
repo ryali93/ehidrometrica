@@ -26,20 +26,16 @@ import arcpy
 import arcpy.na as na
 import traceback
 import pandas as pd
-
-import os
+from config.settings import *
 
 arcpy.env.overwriteOutput = True
 
-BASE_DIR = os.path.dirname(__file__)
-
-_TRACK_NA = os.path.join(BASE_DIR, r'response.gdb\NAEHidro\NAEHidro_ND')
-_TRACK_SHP = os.path.join(BASE_DIR, r'response.gdb\NAEHidro\GPL_Tracks')
-# _INCIDENTS = os.path.join(BASE_DIR, r'response.gdb\GPT_EHidrometrica_daniel')
-_INCIDENTS = os.path.join(BASE_DIR, 'response.gdb\GPT_EHidrometrica_roy')
-_FACILITIES = os.path.join(BASE_DIR, r'response.gdb\GPT_CcppUrbano')
-_TARGET_SHP = os.path.join(BASE_DIR, r'response.gdb\GPL_TrackByEHidrometrica')
-_OUT_CSV = os.path.join(BASE_DIR, 'criterioaccesibilidad.csv')
+_TRACK_NA = os.path.join(STATIC, r'response.gdb\NAEHidro\NAEHidro_ND')
+_TRACK_SHP = os.path.join(STATIC, r'response.gdb\NAEHidro\GPL_Tracks')
+_INCIDENTS = os.path.join(STATIC, 'response.gdb\GPT_EHidrometrica')
+_FACILITIES = os.path.join(STATIC, r'response.gdb\GPT_CcppUrbano')
+_TARGET_SHP = os.path.join(STATIC, r'response.gdb\GPL_TrackByEHidrometrica')
+_OUT_CSV = os.path.join(STATIC, 'criterioaccesibilidad.csv')
 _CODCCPP = 'CODCCPP'
 _HYBASID = 'EHIDROID'
 _SUPVIA = 'SUP_VIA'
