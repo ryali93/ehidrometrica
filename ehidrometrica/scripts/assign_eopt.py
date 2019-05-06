@@ -3,7 +3,7 @@
 
 import arcpy
 import pandas as pd
-from config.settings import *
+from config import *
 
 arcpy.env.overwriteOutput = True
 
@@ -51,6 +51,6 @@ class assignEopt(object):
         # self.assignEopt_1()
         self.assignEopt_2()
 
-if __name__ == '__main__':
-    poo = assignEopt()
-    poo.main()
+# if __name__ == '__main__':
+#     poo = assignEopt()
+#     poo.main()

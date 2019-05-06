@@ -13,7 +13,7 @@ __mail__ = 'geocodery@gmail.com'
 __status__ = 'Development'
 
 # Directorio principal del proMATRIX_DIRyecto
-BASE_DIR = os.path.abspath(os.path.join(__file__, '..\..\..'))
+BASE_DIR = os.path.abspath(os.path.join(__file__, '..\..'))
 
 # Directorio ue sirve de archivos estaticos
 STATIC = os.path.join(BASE_DIR, "static")
@@ -21,11 +21,14 @@ STATIC = os.path.join(BASE_DIR, "static")
 # IMG = os.path.join(STATIC, "img")
 MATRIX_DIR = os.path.join(STATIC, 'matrix')
 
+# Geodatabase
+GDB_EH = os.path.join(STATIC, 'ehidrometrica.gdb')
+
 # Tabla de longitud de rios
-TB_IDRC = os.path.join(STATIC, 'ehidrometrica.gdb\\TB_IDRC')
+TB_IDRC = os.path.join(GDB_EH, 'TB_IDRC')
 
 # Geodatabase
-EHIDROMETRICA = os.path.join(STATIC, 'ehidrometrica.gdb\\EH_GPT_Base')
+EHIDROMETRICA = os.path.join(GDB_EH, 'EH_GPT_Base')
 
 # Directorio de archivos temporales
 TEMP = os.path.join(BASE_DIR, "temp")

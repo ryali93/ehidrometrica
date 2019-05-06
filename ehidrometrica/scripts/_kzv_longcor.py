@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from shapely.geometry import LineString
-from config.settings import *
+from config import *
 
 def get_coords_polynomial(*args):
     z = np.polyfit(args[0], args[-1], 3)

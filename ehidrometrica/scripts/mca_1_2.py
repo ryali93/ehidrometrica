@@ -26,7 +26,7 @@ import arcpy
 import arcpy.na as na
 import traceback
 import pandas as pd
-from config.settings import *
+from config import *
 
 arcpy.env.overwriteOutput = True
 

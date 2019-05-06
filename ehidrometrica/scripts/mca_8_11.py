@@ -25,7 +25,7 @@ C11:
 4: (g) Navegación
 """
 import arcpy
-from config.settings import *
+from config import *
 
 arcpy.env.overwriteOutput = True
 
@@ -51,7 +51,7 @@ def criterio11_first():
 
 
 def criterio11_second():
-    gdb = r'D:\SENAMHI\ehidrometrica\ehidrometrica\static\MCA\C11.gdb'
+    gdb = os.path.join(STATIC, 'usersdissolve.gdb')
     arcpy.env.workspace = gdb
     scratch = arcpy.env.scratchGDB
     listFeature = arcpy.ListFeatureClasses()
@@ -69,9 +69,3 @@ def criterio11_second():
                     suma = suma + int(y)
             x[-1] = suma
             cursor.updateRow(x)
-
-def main():
-    pass
-
-if __name__ == '__main__':
-    main()

@@ -1,4 +1,4 @@
-from MCA_1_2 import *
+from mca_1_2 import *
 import subprocess
 import math
 
@@ -7,7 +7,7 @@ if __name__ == '__main__':
     params = get_parameters(ini=1)
     ngroups = int(math.ceil(len(params)/nrows))
     params_input = [','.join(list(i)) for i in zip(*[params[i:i+ngroups] for i in range(0, len(params), ngroups)])]
-    filepy = os.path.join(BASE_DIR, 'MCA_1_2.py')
+    filepy = os.path.join(BASE_DIR, 'mca_1_2.py')
 
     for index, value in enumerate(params_input, 1):
         try:

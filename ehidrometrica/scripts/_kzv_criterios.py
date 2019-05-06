@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import arcpy
-from config.settings import *
+from config import *
 
 _CODCUENCA = 'IDRC'
 _CODREGION = 'CODREGION'   # Nombre de campo identificador de region aun no definido

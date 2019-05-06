@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import arcpy
-from config.settings import *
+from config import *
 import os
 
 arcpy.env.overwriteOutput = True
@@ -49,9 +49,10 @@ def determinar_rio_principal(codigo, shape):
     arcpy.CalculateField_management(rhLayer, _rprin, 1)
     arcpy.SelectLayerByAttribute_management(rhLayer, 'CLEAR_SELECTION')
 
-for k, v in shp_cuencas.items():
-    try:
-        print k
-        determinar_rio_principal(k, v)
-    except Exception as e:
-        print e.message
+def main_principal_river():
+    for k, v in shp_cuencas.items():
+        try:
+            print k
+            determinar_rio_principal(k, v)
+        except Exception as e:
+            print e.message
